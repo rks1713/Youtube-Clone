@@ -1,0 +1,155 @@
+/* styles.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.account-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+.cover-photo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.username {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.handle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.links{
+    margin-bottom: 20px;
+}
+.links a {
+    color: #1a0dab;
+}
+
+.subscribe-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius:1rem;
+    cursor: pointer;
+    margin-top: 60px;
+   
+ 
+}
+
+.subscribe-button:hover {
+    background-color: black;
+    border-radius: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+main {
+    padding-top: 20px;
+}
+
+.videos h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.video-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.video-thumbnail {
+    width: 299px;
+    height: 190px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.video-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.video-stats,
+.video-description,
+.video-links {
+    font-size: 14px;
+    color: #666;
+}
+
+.video-links a {
+    color: #1a0dab;
+}
